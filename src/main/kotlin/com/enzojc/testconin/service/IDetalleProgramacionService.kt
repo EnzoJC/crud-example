@@ -2,6 +2,6 @@ package com.enzojc.testconin.service
 
 import com.enzojc.testconin.entity.DetalleProgramacion
 
-interface DetalleProgramacionService {
+interface IDetalleProgramacionService {
     fun getAll(): List<DetalleProgramacion>
 }
